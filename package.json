@@ -1,0 +1,32 @@
+{
+  "name": "inventaris-tonasa-nextjs",
+  "description": "Sistem Informasi Manajemen Aset PT Semen Tonasa",
+  "author": "Irfan Jamal Passalowongi",
+  "scripts": {
+    "dev": "node node_modules/next/dist/bin/next dev --port 3001 --webpack",
+    "build": "node node_modules/next/dist/bin/next build",
+    "start": "node node_modules/next/dist/bin/next start --port 3001"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "leaflet": "^1.9.4",
+    "next": "16.2.7",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^9.0.3",
+    "pdfkit": "^0.19.1",
+    "pg": "^8.22.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "sweetalert2": "^11.26.25",
+    "three": "^0.184.0",
+    "xlsx": "^0.18.5"
+  }
+}
